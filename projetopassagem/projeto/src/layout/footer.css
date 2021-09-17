@@ -1,0 +1,9 @@
+.Footer {
+    display: flex;
+    width: 100vw;
+    height: 7.5vh;
+    background-color: darkkhaki;
+    justify-content: center;
+    padding-top: 3vh;
+    font-weight: 600;
+}

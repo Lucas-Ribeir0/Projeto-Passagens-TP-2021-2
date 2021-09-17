@@ -6,7 +6,7 @@ const Voo = props => {
         backgroundColor: props.color || '#DDD',
         borderColor: props.bcolor || '#DDD',
         borderRadius: props.bradius || '4px',
-        
+        boxShadow: props.bshadow || '-2px 2px 0 0 rgba(0, 0, 0, 0.4)',
     }
     return(
         <div className="numVoo" style = {estilo}>

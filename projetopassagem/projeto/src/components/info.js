@@ -4,10 +4,9 @@ const Info = props => {
     return(
         <>
             <div className="origem">
-                <p>Origem: {props.origem} </p>
-            </div>
-            <div className="origem">
+                <p>Partida: {props.partida} </p>
                 <p>Destino: {props.destino}</p>
+                <p>Assentos Disponíveis: {props.assentos}</p>
             </div>
         </>
     )
