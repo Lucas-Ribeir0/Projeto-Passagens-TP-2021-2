@@ -1,0 +1,14 @@
+.numVoo {
+    border: 1px solid blue;
+    margin: 20px;
+    padding: 5px;
+    font-size: 1.8rem;
+}
+
+.idVoo {
+    text-align: center;
+}
+
+.origem {
+    font-weight: 600;
+}
