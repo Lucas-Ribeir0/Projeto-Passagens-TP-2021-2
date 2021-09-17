@@ -12,15 +12,12 @@ function App() {
 
       <Voo idVoo="Voo 421"
         color="#6FF123"
-        bcolor="#000"
         bradius="8px">
       <Info partida="Recife - PE"
               destino="Salvador - BH"
               assentos="34"/>
       </Voo>
       <Voo idVoo="Voo 455"
-        color="#CCC"
-        bcolor="#000"
         bradius="8px">
       <Info partida="Franca - SP"
               destino="Ribeirão Preto - SP"
@@ -28,7 +25,6 @@ function App() {
       </Voo>
       <Voo idVoo="Voo 001"
         color="#EE1"
-        bcolor="#000"
         bradius="8px">
       <Info partida="Guarulhos - SP"
               destino="Rio de Janeiro - RJ"
@@ -36,7 +32,6 @@ function App() {
       </Voo>
       <Voo idVoo="Voo 765"
         color="#B22AA2"
-        bcolor="#000"
         bradius="8px">
       <Info partida="Ribeirão Preto - SP"
               destino="São Paulo - SP"
@@ -44,7 +39,6 @@ function App() {
       </Voo>
       <Voo idVoo="Voo 221"
         color="#C9AAEE"
-        bcolor="#000"
         bradius="8px">
       <Info partida="São Paulo - SP"
               destino="Dubai - UAE"
@@ -83,7 +77,7 @@ function App() {
               assentos="55"/>
       </Voo>
       <Voo idVoo="Voo 096"
-        color="#555"
+        color="#777"
         bcolor="#000"
         bradius="8px">
       <Info partida="Franca - SP"
