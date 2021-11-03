@@ -2,92 +2,106 @@ import './App.css';
 import Header from './layout/header';
 import Footer from './layout/footer';
 import Voo from './layout/voos';
-import Info from './components/info';
+// import i from './components/info';
+// import Botao from './components/button';
+import React from 'react';
 
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+        <div className="App">
+          <Header />
 
-      <Voo idVoo="Voo 421"
-        color="#6FF123"
-        bradius="8px">
-      <Info partida="Recife - PE"
-              destino="Salvador - BH"
-              assentos="34"/>
-      </Voo>
-      <Voo idVoo="Voo 455"
-        bradius="8px">
-      <Info partida="Franca - SP"
-              destino="Ribeirão Preto - SP"
-              assentos="2"/>
-      </Voo>
-      <Voo idVoo="Voo 001"
-        color="#EE1"
-        bradius="8px">
-      <Info partida="Guarulhos - SP"
-              destino="Rio de Janeiro - RJ"
-              assentos="150"/>
-      </Voo>
-      <Voo idVoo="Voo 765"
-        color="#B22AA2"
-        bradius="8px">
-      <Info partida="Ribeirão Preto - SP"
-              destino="São Paulo - SP"
-              assentos="94"/>
-      </Voo>
-      <Voo idVoo="Voo 221"
-        color="#C9AAEE"
-        bradius="8px">
-      <Info partida="São Paulo - SP"
-              destino="Dubai - UAE"
-              assentos="213"/>
-      </Voo>
-      <Voo idVoo="Voo 696"
-        color="#D2EE99"
-        bcolor="#000"
-        bradius="8px">
-      <Info partida="Brasília - DF"
-              destino="Manaus - AM"
-              assentos="111"/>
-      </Voo>
-      <Voo idVoo="Voo 419"
-        color="#AA1122"
-        bcolor="#000"
-        bradius="8px">
-      <Info partida="Manaus - AM"
-              destino="Porto Alegre - RS"
-              assentos="12"/>
-      </Voo>
-      <Voo idVoo="Voo 4221"
-        color="#00CCCC"
-        bcolor="#000"
-        bradius="8px">
-      <Info partida="Florianópolis - SC"
-              destino="Ribeirão Preto - SP"
-              assentos="290"/>
-      </Voo>
-      <Voo idVoo="Voo 021"
-        color="#CD55AA"
-        bcolor="#000"
-        bradius="8px">
-      <Info partida="Fortaleza - CE"
-              destino="São Paulo - SP"
-              assentos="55"/>
-      </Voo>
-      <Voo idVoo="Voo 096"
-        color="#777"
-        bcolor="#000"
-        bradius="8px">
-      <Info partida="Franca - SP"
-              destino="Ribeirão Preto - SP"
-              assentos="5"/>
-      </Voo>
+          <Voo idVoo="Voo 421"
+            color="#499CBF"
+            bradius="8px"
+            horario="15:40"
+            partida="Recife - PE"
+            destino="Salvador - BH"
+            assentos="34">
+          </Voo>
+          <Voo idVoo="Voo 455"
+            color="#499CBF"
+            bradius="8px"
+            horario="21:00"
+            partida="Franca - SP"
+            destino="Ribeirão Preto - SP"
+            assentos="2">
+          </Voo>
+          <Voo idVoo="Voo 001"
+            color="#346980"
+            bradius="8px"
+            horario="12:00"
+            partida="Guarulhos - SP"
+            destino="Rio de Janeiro - RJ"
+            assentos="150">
+          </Voo>
+          <Voo idVoo="Voo 765"
+            color="#346980"
+            bradius="8px"
+            horario="09:00"
+            partida="Ribeirão Preto - SP"
+            destino="São Paulo - SP"
+            assentos="94">
+          </Voo>
+          <Voo idVoo="Voo 221"
+            color="#499CBF"
+            bradius="8px"
+            horario="04:00"
+            partida="São Paulo - SP"
+            destino="Dubai - UAE"
+            assentos="213">
+          </Voo>
+          <Voo idVoo="Voo 696"
+            color="#499CBF"
+            bcolor="#000"
+            bradius="8px"
+            horario="10:00"
+            partida="Brasília - DF"
+            destino="Manaus - AM"
+            assentos="111">
+          </Voo>
+          <Voo idVoo="Voo 419"
+            color="#346980"
+            bcolor="#000"
+            bradius="8px"
+            horario="22:00"
+            partida="Manaus - AM"
+            destino="Porto Alegre - RS"
+            assentos="12">
+          </Voo>
+          <Voo idVoo="Voo 4221"
+            color="#346980"
+            bcolor="#000"
+            bradius="8px"
+            horario="16:30"
+            partida="Florianópolis - SC"
+            destino="Ribeirão Preto - SP"
+            assentos="0">
+          </Voo>
+          <Voo idVoo="Voo 021"
+            color="#499CBF"
+            bcolor="#000"
+            bradius="8px"
+            horario="10:00"
+            partida="Fortaleza - CE"
+            destino="São Paulo - SP"
+            assentos="55">
+          </Voo>
+          <Voo idVoo="Voo 096"
+            color="#499CBF"
+            bcolor="#000"
+            bradius="8px"
+            horario="17:10"
+            partida="Franca - SP"
+            destino="Ribeirão Preto - SP"
+            assentos="5">
+          </Voo>
 
-      <Footer />
-    </div>
+          <Footer />
+        </div>
   );
-}
+};
+
 
 export default App;

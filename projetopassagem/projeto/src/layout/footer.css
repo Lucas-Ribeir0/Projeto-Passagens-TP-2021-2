@@ -1,9 +1,18 @@
 .Footer {
     display: flex;
+    justify-content: center;
     width: 100vw;
     height: 7.5vh;
-    background-color: darkkhaki;
-    justify-content: center;
-    padding-top: 3vh;
+    background-color: #57BBE6;
     font-weight: 600;
+    min-height: 50px;
+}
+
+.Footer p {
+    margin: 15px;
+}
+
+.Footer img {
+    max-height: 100%;
+    max-width: 115px;
 }

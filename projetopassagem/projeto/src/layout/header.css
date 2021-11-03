@@ -1,6 +1,12 @@
 .Header {
+    display: block;
     width: 100vw;
-    height: 7.5vh;
-    background-color: darkkhaki;
+    height: 8vh;
+    background-color: #57BBE6;
     text-align: center;
+    min-height: 50px;
+}
+
+.Header h1 {
+    max-height: 100%;
 }
