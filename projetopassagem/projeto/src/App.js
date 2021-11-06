@@ -2,16 +2,20 @@ import './App.css';
 import Header from './layout/header';
 import Footer from './layout/footer';
 import Voo from './layout/voos';
-// import i from './components/info';
-// import Botao from './components/button';
+import VoosDisp from './components/voodisp';
 import React from 'react';
 
 
 function App() {
   return (
         <div className="App">
-          <Header />
+          <Header className="Main" 
+            texto="Aeroporto das Passagens"/>
 
+        <div className="Display">
+          <VoosDisp/>
+        </div>
+        <div className="Main">
           <Voo idVoo="Voo 421"
             color="#499CBF"
             bradius="8px"
@@ -34,7 +38,7 @@ function App() {
             horario="12:00"
             partida="Guarulhos - SP"
             destino="Rio de Janeiro - RJ"
-            assentos="150">
+            assentos="0">
           </Voo>
           <Voo idVoo="Voo 765"
             color="#346980"
@@ -99,6 +103,7 @@ function App() {
           </Voo>
 
           <Footer />
+        </div>
         </div>
   );
 };

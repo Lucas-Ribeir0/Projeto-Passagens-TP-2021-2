@@ -20,8 +20,8 @@ const Voo = props => {
     }
     
     function Reservar() {
-        if(Assentos > 0)
-            setAssentos(Assentos - 1)
+        if(Assentos > 0) {
+            setAssentos(Assentos - 1)}
     }
 /*     function Cancelar() {
         if (Assentos < props.assentos){

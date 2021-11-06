@@ -1,3 +1,15 @@
+.display {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.4rem;
+}
+
+.display b {
+    font-weight: bolder;
+    font-size: 1.08em;
+}
+
+
 .numVoo {
     border-top: 1px solid rgba(0, 0, 0, 0.4);
     border-right: 1px solid rgba(0, 0, 0, 0.4);

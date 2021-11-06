@@ -1,6 +1,6 @@
 .Header {
     display: block;
-    width: 100vw;
+    width: 98.7vw;
     height: 8vh;
     background-color: #57BBE6;
     text-align: center;
@@ -9,4 +9,5 @@
 
 .Header h1 {
     max-height: 100%;
+    text-align: center;
 }
